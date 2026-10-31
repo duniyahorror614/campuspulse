@@ -1,0 +1,85 @@
+:root {
+  /* Primary & Brand */
+  --color-primary: #1e40af; /* Deep accessible indigo/blue */
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #eff6ff;
+  --color-primary-text: #ffffff;
+
+  /* Surfaces & Backgrounds */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f5f9;
+  --color-surface-active: #e2e8f0;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  /* Typography */
+  --color-text-main: #0f172a;
+  --color-text-muted: #475569;
+  --color-text-subtle: #64748b;
+
+  /* Semantic Status Colors (WCAG AA Compliant contrast) */
+  --status-urgent-bg: #fef2f2;
+  --status-urgent-border: #fecaca;
+  --status-urgent-text: #991b1b;
+  --status-urgent-badge: #dc2626;
+
+  --status-upcoming-bg: #f0fdf4;
+  --status-upcoming-border: #bbf7d0;
+  --status-upcoming-text: #166534;
+  --status-upcoming-badge: #15803d;
+
+  --status-expired-bg: #f8fafc;
+  --status-expired-border: #cbd5e1;
+  --status-expired-text: #475569;
+  --status-expired-badge: #64748b;
+
+  --status-unscheduled-bg: #f1f5f9;
+  --status-unscheduled-border: #cbd5e1;
+  --status-unscheduled-text: #334155;
+  --status-unscheduled-badge: #475569;
+
+  /* Spacing Scale (4px / 8px baseline) */
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Typography Scale */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-size-xs: 0.75rem;     /* 12px */
+  --font-size-sm: 0.875rem;    /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg: 1.125rem;    /* 18px */
+  --font-size-xl: 1.25rem;     /* 20px */
+  --font-size-2xl: 1.5rem;     /* 24px */
+  --font-size-3xl: 1.875rem;   /* 30px */
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+
+  /* Focus Indicator */
+  --focus-ring: 0 0 0 3px rgba(30, 64, 175, 0.35);
+
+  /* Layout */
+  --sidebar-width: 250px;
+  --header-height: 60px;
+}
