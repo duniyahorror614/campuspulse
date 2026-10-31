@@ -87,11 +87,14 @@ export const WeeklySummary: React.FC<WeeklySummaryProps> = ({
     setLoading(false);
   };
 
+  // Re-run auto-generation when notice *content* changes (not just count), using the
+  // cache-key which encodes all notice IDs and their updatedAt timestamps.
   useEffect(() => {
     if (notices.length > 0 && !summary) {
       generateSummary(false);
     }
-  }, [notices.length]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentCacheKey]);
 
   if (notices.length === 0) {
     return (
